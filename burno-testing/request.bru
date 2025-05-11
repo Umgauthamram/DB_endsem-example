@@ -1,0 +1,22 @@
+meta {
+  name: request
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3000/appointments
+  body: json
+  auth: inherit
+}
+
+body:json {
+  
+  {
+    "petName": "Tommy",
+    "date": "2025-05-1",
+    "vetId": "682077412ee6de6a5bc69424",
+    "ownerId": "6820709d18951c90539c5518"
+  }
+  
+}
