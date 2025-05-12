@@ -1,0 +1,20 @@
+meta {
+  name: user request
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:3000/register
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "username":"shangesh",
+    "email":"shanges1g@gmail.com",
+    "role":"vet"
+    
+  }
+}
